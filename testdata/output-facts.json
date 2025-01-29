@@ -1,0 +1,135 @@
+{
+  "networking": {
+    "interfaces": {
+      "lo": {
+        "ip": "127.0.0.1",
+        "bindings6": [
+          {
+            "flags": [
+              "permanent"
+            ],
+            "scope6": "host",
+            "address": "::1",
+            "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+            "network": "::1"
+          }
+        ],
+        "mtu": 65536,
+        "bindings": [
+          {
+            "address": "127.0.0.1",
+            "netmask": "255.0.0.0",
+            "network": "127.0.0.0"
+          }
+        ],
+        "network6": "::1",
+        "netmask6": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "ip6": "::1",
+        "physical": false,
+        "netmask": "255.0.0.0",
+        "network": "127.0.0.0",
+        "operational_state": "unknown",
+        "scope6": "host"
+      },
+      "bond0": {
+        "ip": "10.3.0.225",
+        "mac": "08:c0:eb:a0:02:cc",
+        "mtu": 1500,
+        "netmask": "255.255.255.0",
+        "network": "10.3.0.0",
+        "bindings": [
+          {
+            "address": "10.3.0.225",
+            "netmask": "255.255.255.0",
+            "network": "10.3.0.0"
+          }
+        ],
+        "physical": false,
+        "operational_state": "up"
+      }
+    },
+    "ip": "10.3.0.225",
+    "primary": "bond0",
+    "mtu": 1500,
+    "hostname": "n225",
+    "fqdn": "n225.rz.babiel.com",
+    "netmask": "255.255.255.0",
+    "network": "10.3.0.0",
+    "domain": "rz.babiel.com",
+    "mac": "08:c0:eb:a0:02:cc"
+  },
+  "processors": {
+    "isa": "unknown",
+    "cores": 32,
+    "count": 64,
+    "speed": "3.11 GHz",
+    "models": [
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor",
+      "AMD EPYC 7543P 32-Core Processor"
+    ],
+    "threads": 2,
+    "physicalcount": 1
+  }
+}
